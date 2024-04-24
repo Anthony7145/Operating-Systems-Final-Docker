@@ -25,3 +25,18 @@ Verified Services:
 Accessed http://localhost:8080/api/books in the browser to test the application.
 
 Checked running containers using "docker-compose ps"
+
+
+
+Challenge 4 – Scaling Up an Application
+Objectives
+Scale the node-service to multiple instances
+Understand the benefits of scaling services in Docker
+
+Steps Taken:
+1) Navigated to Challenge 4 Folder by typing "cd C:\Users\antho\OneDrive\Documents\Operating-Systems-Final-Docker\Challenge 4"
+2) Scaled Node Service: docker-compose scale node-service=3
+3) Verified Scaling:
+   Tested load balancing by accessing http://localhost:8080/api/stats multiple times.
+Checked running instances using: docker-compose ps
+
